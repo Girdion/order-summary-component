@@ -1,0 +1,143 @@
+html, body {
+  height: 100%; 
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("images/pattern-background-desktop.svg");
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+#container {
+  width: 350px;
+  height: 550px;
+  border: none;
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#hero {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+#main-content {
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+  color: grey;
+  margin-top: 20px;
+}
+
+.annual-plan {
+  border: none;
+  border-radius: 10px;
+  width: 80%;
+  background-color: hsl(225, 100%, 98%);
+  margin: 0 auto 30px;
+  margin-top: 30px; 
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 3px;
+  padding-right: 18px;
+  height: 70px;
+}
+
+.annual-plan p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.annual-plan img {
+  margin-left: 10px;
+  width: 40px;
+}
+
+
+.annual-plan a {
+  margin-left: 50px;
+  color: hsl(245, 75%, 52%);
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+.annual-plan #annual {
+  font-weight: bold;
+  color: black;
+  margin-bottom: 8px;
+}
+
+h1{
+  font-size: 22px;
+  font-weight: 900;
+  margin-top: 30px;
+}
+
+#proceed {
+  margin-bottom: 18px;
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  border-radius: 8px;
+  width: 80%;
+  height: 40px;
+  color: white;
+  font-weight: bold;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#proceed:hover{
+  cursor: pointer;
+}
+
+#change-btn:active{
+  text-decoration: none;
+  color: hsl(239, 62%, 60%);
+}
+
+#proceed:active{
+  background-color: hsl(239, 62%, 60%);
+  font-weight: bold;
+}
+
+#cancel{
+  text-decoration: none;
+  color: grey;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+#cancel:active{
+  color: black;
+}
+
+.plan-details {
+  flex-grow: 1;
+  text-align: left; 
+}
+
+.plan-details p {
+  margin: 0; 
+}
+
